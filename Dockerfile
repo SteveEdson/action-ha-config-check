@@ -7,6 +7,8 @@ RUN \
         bash \
         libxml2 \
         libxslt \
+        bluez-dev \
+        zlib-dev \
     \
     && python3 -m pip install --disable-pip-version-check \
         wheel \
