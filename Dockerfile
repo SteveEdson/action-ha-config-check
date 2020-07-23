@@ -9,6 +9,7 @@ RUN \
         libxslt \
         bluez-dev \
         zlib-dev \
+        libjpeg-turbo-dev \
     \
     && python3 -m pip install --disable-pip-version-check \
         wheel \
